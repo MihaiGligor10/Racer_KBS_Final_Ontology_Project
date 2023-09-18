@@ -1,0 +1,367 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="urn:absolute:"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="urn:absolute:">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#IntraOrbitalMeningioma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#OrbitEmbryonalRhabdomyosarcoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#OrbitRhabdomyosarcoma."/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://dbpedia.org/resource/Orbit_(anatomy)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#LymphocyteOrbitalCancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#OrbitAlveolar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#EmbryonalRhabdomyosarcoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#SymptomExophthalmo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Alveolar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Lymphocyte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Material"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbital"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#OrbitalCancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#IntraOrbital"/>
+    </Declaration>
+   
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#OrbitRhabdomyosarcoma.OrbitRhabdomyosarcoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Have"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#OrbitalMeningioma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://dbpedia.org/resource/Alveolar_rhabdomyosarcoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://dbpedia.org/resource/Lymphocyte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Derive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#AlveolarRhabdomyosarcoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://dbpedia.org/resource/Embryonal_rhabdomyosarcoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://dbpedia.org/resource/Cancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://dbpedia.org/resource/Meningioma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Rhabdomyosarcoma."/>
+    </Declaration>
+  
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Exophthalmo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://dbpedia.org/resource/Lymphoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#OrbitLymphoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Basis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#OrbitAlveolarRhabdomyosarcoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#MaterialBasis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Rhabdomyosarcoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Meningioma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Cancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Lymphoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#OrbitRhabdomyosarcoma.Orbit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#OrbitSarcoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Rhabdomyosarcoma.Orbit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#LymphocyteOrbital"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://dbpedia.org/resource/Rhabdomyosarcoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Sarcoma"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://dbpedia.org/resource/Alveolar_rhabdomyosarcoma"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#AlveolarRhabdomyosarcoma"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://dbpedia.org/resource/Cancer"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Cancer"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://dbpedia.org/resource/Embryonal_rhabdomyosarcoma"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#EmbryonalRhabdomyosarcoma"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://dbpedia.org/resource/Lymphocyte"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Lymphocyte"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://dbpedia.org/resource/Lymphoma"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Lymphoma"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://dbpedia.org/resource/Meningioma"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Meningioma"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://dbpedia.org/resource/Rhabdomyosarcoma"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Rhabdomyosarcoma"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://dbpedia.org/resource/Orbit_(anatomy)"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbit"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbital"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://dbpedia.org/resource/Alveolar_rhabdomyosarcoma"/>
+        <Class IRI="http://dbpedia.org/resource/Rhabdomyosarcoma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://dbpedia.org/resource/Alveolar_rhabdomyosarcoma"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Rhabdomyosarcoma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://dbpedia.org/resource/Embryonal_rhabdomyosarcoma"/>
+        <Class IRI="http://dbpedia.org/resource/Rhabdomyosarcoma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://dbpedia.org/resource/Embryonal_rhabdomyosarcoma"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Rhabdomyosarcoma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://dbpedia.org/resource/Orbit_(anatomy)"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#AlveolarRhabdomyosarcoma"/>
+        <Class IRI="http://dbpedia.org/resource/Rhabdomyosarcoma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#AlveolarRhabdomyosarcoma"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Rhabdomyosarcoma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Derive"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#EmbryonalRhabdomyosarcoma"/>
+        <Class IRI="http://dbpedia.org/resource/Rhabdomyosarcoma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#EmbryonalRhabdomyosarcoma"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Rhabdomyosarcoma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Have"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#IntraOrbital"/>
+        <Class IRI="http://dbpedia.org/resource/Orbit_(anatomy)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#IntraOrbital"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#IntraOrbital"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbital"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#IntraOrbitalMeningioma"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#OrbitalMeningioma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#LymphocyteOrbital"/>
+        <Class IRI="http://dbpedia.org/resource/Orbit_(anatomy)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#LymphocyteOrbital"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#LymphocyteOrbital"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbital"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#LymphocyteOrbitalCancer"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#OrbitalCancer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Material"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#MaterialBasis"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Basis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbit"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#OrbitAlveolar"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Alveolar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#OrbitAlveolarRhabdomyosarcoma"/>
+        <Class IRI="http://dbpedia.org/resource/Alveolar_rhabdomyosarcoma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#OrbitAlveolarRhabdomyosarcoma"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#AlveolarRhabdomyosarcoma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#OrbitEmbryonalRhabdomyosarcoma"/>
+        <Class IRI="http://dbpedia.org/resource/Embryonal_rhabdomyosarcoma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#OrbitEmbryonalRhabdomyosarcoma"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#EmbryonalRhabdomyosarcoma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#OrbitLymphoma"/>
+        <Class IRI="http://dbpedia.org/resource/Lymphoma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#OrbitLymphoma"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Lymphoma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#OrbitRhabdomyosarcoma"/>
+        <Class IRI="http://dbpedia.org/resource/Rhabdomyosarcoma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#OrbitRhabdomyosarcoma"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Rhabdomyosarcoma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#OrbitRhabdomyosarcoma."/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Rhabdomyosarcoma."/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#OrbitRhabdomyosarcoma.Orbit"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Rhabdomyosarcoma.Orbit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#OrbitRhabdomyosarcoma.OrbitRhabdomyosarcoma"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Rhabdomyosarcoma.OrbitRhabdomyosarcoma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#OrbitSarcoma"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Sarcoma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbital"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#OrbitalCancer"/>
+        <Class IRI="http://dbpedia.org/resource/Cancer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#OrbitalCancer"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Cancer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#OrbitalMeningioma"/>
+        <Class IRI="http://dbpedia.org/resource/Meningioma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#OrbitalMeningioma"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Meningioma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Rhabdomyosarcoma.Orbit"/>
+        <Class IRI="http://dbpedia.org/resource/Orbit_(anatomy)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Rhabdomyosarcoma.Orbit"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Rhabdomyosarcoma.Orbit"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbital"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Rhabdomyosarcoma.OrbitRhabdomyosarcoma"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#OrbitRhabdomyosarcoma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#SymptomExophthalmo"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Exophthalmo"/>
+    </SubClassOf>
+   
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

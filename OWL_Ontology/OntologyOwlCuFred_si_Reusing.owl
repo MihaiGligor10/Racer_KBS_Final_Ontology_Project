@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:owl2="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+   xmlns:swrlb="http://www.w3.org/2003/11/swrlb#">
+ <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/vn/data/Derive_97020000">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbit_rhabdomyosarcoma.Orbit_rhabdomyosarcoma">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbit_rhabdomyosarcoma"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Derive">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Derive">
+      <owl:equivalentClass>
+         <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/vn/data/Derive_97020000"/>
+      </owl:equivalentClass>
+   </owl:Class>
+   <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
+   <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbit_rhabdomyosarcoma"/>
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00010483 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00010483">
+        <owl:equivalentClass rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000081"/>
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000077"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000094">
+        <owl:equivalentClass rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000073"/>
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000071"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONS_1000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONS_1000001">
+        <owl:equivalentClass rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000097"/>
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000089"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000097 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000097">
+        <owl:equivalentClass rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000098"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000098 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000098"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001062">
+        <owl:equivalentClass rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000094"/>
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000089"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000005">
+        <owl:equivalentClass rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000133"/>
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000071"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000012"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000027"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000195">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_1000195"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_1000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000005"/>
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000133"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_1000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000005"/>
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000133"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_1000195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_1000195">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000005"/>
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000133"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000003 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000003">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000004"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000004 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000004"/>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000026 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000026"/>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000068 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000068">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000026"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000069 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000069">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000068"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000070 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000070">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000068"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000071 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000071">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000026"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000072 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000072">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000071"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000073 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000073">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000071"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000074 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000074">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000071"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000075 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000075">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000071"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000076 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000076">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000071"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000077 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000077">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000026"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000078 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000078">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000077"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000079 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000079">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000077"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000080 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000080">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000077"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000081 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000081">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000077"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000082 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000082">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000077"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000083 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000083">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000077"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000084 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000084">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000026"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000085 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000085">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000084"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000086 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000086">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000084"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000087 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000087">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000084"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000088 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000088">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000084"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000089 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000089">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000026"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000090 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000090">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000089"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000091 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000091">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000089"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000092 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000092">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000089"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000093 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000093">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000089"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000094 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000094">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000089"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000095 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000095">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000089"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000096 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000096">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000089"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000097 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000097">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000089"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000098 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000098">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000089"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000099 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000099">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000089"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000100 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000100">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000089"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000101 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000101">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000100"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000102 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000102">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000089"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000103 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000103">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000068"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000104 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000104">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000068"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000106 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000113 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000131 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000131">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000089"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000133 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000133">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000071"/>
+    </owl:Class>
+   <owl:Ontology rdf:about=""/>
+   <owl:ObjectProperty rdf:about="HAS-SYMPTOM">
+      <rdfs:domain>
+         <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+               <owl:Class rdf:about="DISEASE"/>
+            </owl:intersectionOf>
+         </owl:Class>
+      </rdfs:domain>
+      <rdfs:range>
+         <owl:Class rdf:about="SYMPTOM"/>
+      </rdfs:range>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="HAS-MATERIAL-BASIS-IN">
+      <rdfs:domain>
+         <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+               <owl:Class rdf:about="DISEASE"/>
+            </owl:intersectionOf>
+         </owl:Class>
+      </rdfs:domain>
+      <rdfs:range>
+         <owl:Class rdf:about="CELLS"/>
+      </rdfs:range>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="ADJACENT-TO">
+      <rdfs:domain>
+         <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+               <owl:Class rdf:about="DISEASE"/>
+            </owl:intersectionOf>
+         </owl:Class>
+      </rdfs:domain>
+      <rdfs:range>
+         <owl:Class rdf:about="LOCATION"/>
+      </rdfs:range>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="HAS-LOCATION">
+      <rdfs:domain>
+         <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+               <owl:Class rdf:about="DISEASE"/>
+            </owl:intersectionOf>
+         </owl:Class>
+      </rdfs:domain>
+      <rdfs:range>
+         <owl:Class rdf:about="LOCATION"/>
+      </rdfs:range>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="DIRECTSUBNODEOF">
+      <rdfs:subPropertyOf rdf:resource="SUBNODEOF"/>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="IS-DIFFERENT">
+      <rdfs:domain>
+         <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+               <owl:Class rdf:about="DISEASE"/>
+            </owl:intersectionOf>
+         </owl:Class>
+      </rdfs:domain>
+      <rdfs:range>
+         <owl:Class rdf:about="SYMPTOM"/>
+      </rdfs:range>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="SUPERNODEOF">
+      <owl:inverseOf rdf:resource="SUBNODEOF"/>
+   </owl:ObjectProperty>
+   <owl:TransitiveProperty rdf:about="SUPERNODEOF"/>
+   <owl:ObjectProperty rdf:about="SUBNODEOF">
+   </owl:ObjectProperty>
+   <owl:TransitiveProperty rdf:about="SUBNODEOF"/>
+   <owl:Class rdf:about="LOCATION">
+      <owl:disjointWith>
+         <owl:Class rdf:about="SYMPTOM"/>
+      </owl:disjointWith>
+   </owl:Class>
+   <owl:Class rdf:about="LOCATION">
+      <owl:disjointWith>
+         <owl:Class rdf:about="DISEASE"/>
+      </owl:disjointWith>
+   </owl:Class>
+   <owl:Class rdf:about="SYMPTOM">
+      <owl:disjointWith>
+         <owl:Class rdf:about="DISEASE"/>
+      </owl:disjointWith>
+   </owl:Class>
+   <owl:Class rdf:about="COMPONENT">
+      <owl:equivalentClass>
+         <owl:Class>
+            <owl:unionOf rdf:parseType="Collection">
+               <owl:Class rdf:about="DISEASE"/>
+               <owl:Class rdf:about="SYMPTOM"/>
+               <owl:Class rdf:about="LOCATION"/>
+            </owl:unionOf>
+         </owl:Class>
+      </owl:equivalentClass>
+   </owl:Class>
+   <owl:Class rdf:about="INTERMITTENT_PROPTOSIS">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBITAL_DISEASE"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ORBITAL_CYST">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBITAL_DISEASE"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="PULSATING_EXOPHTHALMOS">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBITAL_DISEASE"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ENOPHTHALMOS">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBITAL_DISEASE"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="CONSTANT_EXOPHTHALMOS">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBITAL_DISEASE"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="LATERAL_DISPLACEMENT_OF_EYE">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBITAL_DISEASE"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="HEMANGIOMA_OF_ORBIT">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBITAL_DISEASE"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="THYROTOXIC_EXOPHTHALMOS">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ENDOCRINE_EXOPHTHALMOS"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ORBITAL_PLASMA_CELL_GRANULOMA">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="CHRONIC_ORBITAL_INFLAMMATION"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ORBITAL_GRANULOMA">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="CHRONIC_ORBITAL_INFLAMMATION"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ORBITAL_CELLULITIS">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ACUTE_ORBITAL_INFLAMMATION"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ORBITAL_TENONITIS">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ACUTE_ORBITAL_INFLAMMATION"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ORBITAL_OSTEOMYELITIS">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ACUTE_ORBITAL_INFLAMMATION"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ORBITAL_PERIOSTITIS">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ACUTE_ORBITAL_INFLAMMATION"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="INTRAORBITAL_MENINGIOMA">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBITAL_CANCER"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ORBIT_LYMPHOMA">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBITAL_CANCER"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ORBIT_LYMPHOMA">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBITAL_CANCER"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ORBIT_ALVEOLAR_RHABDOMYOSARCOMA">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBIT_RHABDOMYOSARCOMA"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ORBIT_EMBRYONAL_RHABDOMYOSARCOMA">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBIT_RHABDOMYOSARCOMA"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="CELLS">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="LOCATION"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="BONE_DISEASE">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="DISEASE"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ORBITAL_DISEASE">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="BONE_DISEASE"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ENDOCRINE_EXOPHTHALMOS">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBITAL_DISEASE"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="CHRONIC_ORBITAL_INFLAMMATION">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBITAL_DISEASE"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ACUTE_ORBITAL_INFLAMMATION">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBITAL_DISEASE"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ORBITAL_CANCER">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBITAL_DISEASE"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ORBIT_SARCOMA">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBITAL_CANCER"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ORBIT_RHABDOMYOSARCOMA">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBIT_SARCOMA"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="LOCATION">
+      <rdfs:subClassOf>
+         <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+               <owl:Class>
+                  <owl:complementOf>
+                     <owl:Class rdf:about="SYMPTOM"/>
+                  </owl:complementOf>
+               </owl:Class>
+               <owl:Class>
+                  <owl:complementOf>
+                     <owl:Class rdf:about="DISEASE"/>
+                  </owl:complementOf>
+               </owl:Class>
+            </owl:intersectionOf>
+         </owl:Class>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="SYMPTOM">
+      <rdfs:subClassOf>
+         <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+               <owl:Class>
+                  <owl:complementOf>
+                     <owl:Class rdf:about="DISEASE"/>
+                  </owl:complementOf>
+               </owl:Class>
+            </owl:intersectionOf>
+         </owl:Class>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Thing rdf:about="ORBIT_LYMPHOMA">
+      <HAS-MATERIAL-BASIS-IN rdf:resource="LYMPHOCYTE"/>
+   </owl:Thing>
+   <CELLS rdf:about="LYMPHOCYTE">
+   </CELLS>
+   <owl:Thing rdf:about="ORBITAL_DISEASE">
+      <ADJACENT-TO rdf:resource="EYE"/>
+   </owl:Thing>
+   <LOCATION rdf:about="EYE">
+   </LOCATION>
+   <owl:Thing rdf:about="LYMPHOMA">
+      <HAS-LOCATION rdf:resource="LYMPHOID_TISSUE"/>
+   </owl:Thing>
+   <LOCATION rdf:about="LYMPHOID_TISSUE">
+   </LOCATION>
+   <owl:Thing rdf:about="HEMANGIOMA_OF_ORBIT">
+      <HAS-LOCATION rdf:resource="ORBITAL_REGION"/>
+   </owl:Thing>
+   <LOCATION rdf:about="ORBITAL_REGION">
+   </LOCATION>
+   <owl:Thing rdf:about="ACUTE_ORBITAL_INFLAMMATION">
+      <HAS-SYMPTOM rdf:resource="INFLAMMATION"/>
+   </owl:Thing>
+   <SYMPTOM rdf:about="INFLAMMATION">
+   </SYMPTOM>
+   <owl:Thing rdf:about="ORBITAL_PERIOSTITIS">
+      <HAS-SYMPTOM rdf:resource="INFLAMMATION"/>
+   </owl:Thing>
+   <owl:Thing rdf:about="ORBITAL_TENONITIS">
+      <HAS-SYMPTOM rdf:resource="INFLAMMATION"/>
+   </owl:Thing>
+   <owl:Thing rdf:about="ORBITAL_CANCER">
+      <HAS-SYMPTOM rdf:resource="EXOPHTHALMOS"/>
+      <HAS-SYMPTOM rdf:resource="PTOSIS"/>
+   </owl:Thing>
+   <SYMPTOM rdf:about="EXOPHTHALMOS">
+   </SYMPTOM>
+   <SYMPTOM rdf:about="PTOSIS">
+   </SYMPTOM>
+   <owl:Thing rdf:about="ORBITAL_CELLULITIS">
+      <HAS-SYMPTOM rdf:resource="INFLAMMATION"/>
+      <HAS-SYMPTOM rdf:resource="DOUBLE_VISION"/>
+      <HAS-SYMPTOM rdf:resource="HEADACHE"/>
+      <HAS-SYMPTOM rdf:resource="PTOSIS"/>
+      <HAS-SYMPTOM rdf:resource="FEVER"/>
+   </owl:Thing>
+   <SYMPTOM rdf:about="DOUBLE_VISION">
+   </SYMPTOM>
+   <SYMPTOM rdf:about="HEADACHE">
+   </SYMPTOM>
+   <SYMPTOM rdf:about="FEVER">
+   </SYMPTOM>
+   <owl:Thing rdf:about="CELLS">
+      <DIRECTSUBNODEOF rdf:resource="LOCATION"/>
+   </owl:Thing>
+   <owl:Thing rdf:about="LOCATION">
+      <DIRECTSUBNODEOF rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+   </owl:Thing>
+   <owl:Thing rdf:about="SYMPTOM">
+      <DIRECTSUBNODEOF rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+   </owl:Thing>
+   <owl:Thing rdf:about="DISEASE">
+      <DIRECTSUBNODEOF rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+   </owl:Thing>
+</rdf:RDF>

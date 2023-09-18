@@ -1,0 +1,145 @@
+(full-reset)
+(disable-nrql-warnings)
+	
+
+;;;;;;;;;;;;;;;N-arry relation Design pattern;;;;;;;;;;;;;;;	
+(define-primitive-role has-symptom  :domain Disease  :range Symptom)     
+(define-primitive-role has-location :domain Disease  :range Location)
+(define-primitive-role adjacent-to  :domain Disease  :range Location)
+(define-primitive-role has-material-basis-in  :domain Disease  :range Cells)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+
+;;;;;;;;;;;;;;;PartOf Design pattern;;;;;;;;;;;;;;;
+(define-primitive-role subNodeOf :transitive t :inverse superNodeOf)
+(define-primitive-role directSubNodeOf :parent subNodeOf)	 
+(related Disease top directSubNodeOf)
+(related Symptom top directSubNodeOf)
+(related Location top directSubNodeOf)
+(related Cells Location directSubNodeOf)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Presentation Design pattern;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(instance fever Symptom)
+(instance ptosis Symptom)
+(instance headache Symptom)
+(instance double_vision Symptom)
+(instance inflammation Symptom)
+(instance exophthalmos Symptom)
+       				
+(instance orbital_region Location)
+(instance lymphoid_tissue Location)
+(instance eye Location)
+(instance lymphocyte Cells)
+
+
+;;;;;;;;;;;;;;;Partition Design pattern;;;;;;;;;;;;;;;
+(equivalent Component (or Disease Symptom Location))
+(disjoint Disease Symptom Location)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+		
+		
+(implies Intermittent_proptosis Orbital_disease) 
+(implies Orbital_cyst Orbital_disease) 
+(implies Pulsating_exophthalmos Orbital_disease) 
+(implies Enophthalmos Orbital_disease) 
+(implies Constant_exophthalmos Orbital_disease) 
+(implies Lateral_displacement_of_eye Orbital_disease) 
+(implies Hemangioma_of_orbit Orbital_disease) 
+
+(implies Thyrotoxic_exophthalmos Endocrine_exophthalmos) 
+(implies Orbital_plasma_cell_granuloma Chronic_orbital_inflammation) 
+(implies Orbital_granuloma Chronic_orbital_inflammation) 
+
+(implies Orbital_cellulitis Acute_orbital_inflammation) 
+(implies Orbital_tenonitis Acute_orbital_inflammation) 
+(implies Orbital_osteomyelitis Acute_orbital_inflammation) 
+(implies Orbital_periostitis Acute_orbital_inflammation) 
+
+(implies Intraorbital_meningioma Orbital_cancer)
+(implies Orbit_lymphoma Orbital_cancer)
+(implies Orbit_lymphoma Orbital_cancer)
+(implies Orbit_alveolar_rhabdomyosarcoma Orbit_rhabdomyosarcoma) 
+(implies Orbit_embryonal_rhabdomyosarcoma Orbit_rhabdomyosarcoma) 
+
+(implies Cells Location)
+
+(implies Bone_disease Disease)
+(implies Orbital_disease Bone_disease  )
+(implies Endocrine_exophthalmos Orbital_disease )
+
+(implies  Chronic_orbital_inflammation Orbital_disease)
+(implies  Acute_orbital_inflammation Orbital_disease)
+(implies  Orbital_cancer Orbital_disease)
+(implies  Orbit_sarcoma Orbital_cancer)
+(implies  Orbit_rhabdomyosarcoma Orbit_sarcoma )
+
+
+(related  Orbital_cellulitis fever has-symptom)
+(related  Orbital_cellulitis ptosis has-symptom)
+(related  Orbital_cellulitis headache has-symptom)
+(related  Orbital_cellulitis double_vision has-symptom)
+(related  Orbital_cellulitis inflammation has-symptom)
+(related  Orbital_cancer ptosis has-symptom)
+(related  Orbital_cancer exophthalmos has-symptom)
+(related  Orbital_tenonitis inflammation has-symptom)
+(related  Orbital_periostitis inflammation has-symptom)
+(related  Acute_orbital_inflammation inflammation has-symptom)
+
+(related  Hemangioma_of_orbit orbital_region has-location)
+(related  Lymphoma lymphoid_tissue has-location)
+
+(related  Orbital_disease eye  adjacent-to)
+
+(related  Orbit_lymphoma lymphocyte  has-material-basis-in)
+
+
+
+;;;;;;;;;;;;;;;Queries;;;;;;;;;;;;;;;
+
+
+;1_______Returneaza bolile care au ca simptom febra
+(retrieve	(?x)
+ (and (?x Disease)
+ (?x fever has-symptom)))
+ 
+(individual-fillers fever (inv has-symptom) )
+
+;2_______Returneaza toate simptomele bolii orbital_cellulitis
+(individual-fillers orbital_cellulitis has-symptom )
+
+
+;3_______Returneaza bolile care au ca simptom dureri de cap
+(retrieve	(?x)
+ (and (?x Disease)
+ (?x headache has-symptom)))
+
+;4_______Ce boala apare in tesutul limfoid?
+(retrieve (?x)
+(and (?x Disease)
+(?x lymphoid_tissue has-location)))
+
+;5_______Returneaza toate bolile care au ca simptom inflamatia
+(retrieve (?x)
+(and (?x Disease)
+(?x inflammation has-symptom)))
+
+;;;;;;;;;;;;;;;Ontology evaluation;;;;;;;;;;;;;;;
+
+(all-atomic-concepts)
+(all-individuals) 
+
+(abox-consistent?)				
+(tbox-cyclic?)
+(tbox-coherent?)
+
+(realize-abox)
+(classify-tbox)
+
+(evaluate (length (all-individuals)))
+(evaluate (length (all-atomic-concepts)))
+(evaluate (length (all-roles)))
+(evaluate (length (all-rules)))

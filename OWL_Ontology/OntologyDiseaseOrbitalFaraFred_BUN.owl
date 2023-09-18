@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:owl2="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+   xmlns:swrlb="http://www.w3.org/2003/11/swrlb#">
+   <owl:Ontology rdf:about=""/>
+   <owl:ObjectProperty rdf:about="HAS-MATERIAL-BASIS-IN">
+      <rdfs:domain>
+         <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+               <owl:Class rdf:about="DISEASE"/>
+            </owl:intersectionOf>
+         </owl:Class>
+      </rdfs:domain>
+      <rdfs:range>
+         <owl:Class rdf:about="CELLS"/>
+      </rdfs:range>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="ADJACENT-TO">
+      <rdfs:domain>
+         <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+               <owl:Class rdf:about="DISEASE"/>
+            </owl:intersectionOf>
+         </owl:Class>
+      </rdfs:domain>
+      <rdfs:range>
+         <owl:Class rdf:about="LOCATION"/>
+      </rdfs:range>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="HAS-LOCATION">
+      <rdfs:domain>
+         <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+               <owl:Class rdf:about="DISEASE"/>
+            </owl:intersectionOf>
+         </owl:Class>
+      </rdfs:domain>
+      <rdfs:range>
+         <owl:Class rdf:about="LOCATION"/>
+      </rdfs:range>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="IS-DIFFERENT">
+      <rdfs:domain>
+         <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+               <owl:Class rdf:about="DISEASE"/>
+            </owl:intersectionOf>
+         </owl:Class>
+      </rdfs:domain>
+      <rdfs:range>
+         <owl:Class rdf:about="SYMPTOM"/>
+      </rdfs:range>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="DIRECTSUBNODEOF">
+      <rdfs:subPropertyOf rdf:resource="SUBNODEOF"/>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="SUPERNODEOF">
+      <owl:inverseOf rdf:resource="SUBNODEOF"/>
+   </owl:ObjectProperty>
+   <owl:TransitiveProperty rdf:about="SUPERNODEOF"/>
+   <owl:ObjectProperty rdf:about="HAS-SYMPTOM">
+      <rdfs:domain>
+         <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+               <owl:Class rdf:about="DISEASE"/>
+            </owl:intersectionOf>
+         </owl:Class>
+      </rdfs:domain>
+      <rdfs:range>
+         <owl:Class rdf:about="SYMPTOM"/>
+      </rdfs:range>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="SUBNODEOF">
+   </owl:ObjectProperty>
+   <owl:TransitiveProperty rdf:about="SUBNODEOF"/>
+   <owl:Class rdf:about="LOCATION">
+      <owl:disjointWith>
+         <owl:Class rdf:about="SYMPTOM"/>
+      </owl:disjointWith>
+   </owl:Class>
+   <owl:Class rdf:about="LOCATION">
+      <owl:disjointWith>
+         <owl:Class rdf:about="DISEASE"/>
+      </owl:disjointWith>
+   </owl:Class>
+   <owl:Class rdf:about="SYMPTOM">
+      <owl:disjointWith>
+         <owl:Class rdf:about="DISEASE"/>
+      </owl:disjointWith>
+   </owl:Class>
+   <owl:Class rdf:about="COMPONENT">
+      <owl:equivalentClass>
+         <owl:Class>
+            <owl:unionOf rdf:parseType="Collection">
+               <owl:Class rdf:about="DISEASE"/>
+               <owl:Class rdf:about="SYMPTOM"/>
+               <owl:Class rdf:about="LOCATION"/>
+            </owl:unionOf>
+         </owl:Class>
+      </owl:equivalentClass>
+   </owl:Class>
+   <owl:Class rdf:about="INTERMITTENT_PROPTOSIS">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBITAL_DISEASE"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ORBITAL_CYST">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBITAL_DISEASE"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="PULSATING_EXOPHTHALMOS">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBITAL_DISEASE"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ENOPHTHALMOS">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBITAL_DISEASE"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="CONSTANT_EXOPHTHALMOS">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBITAL_DISEASE"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="LATERAL_DISPLACEMENT_OF_EYE">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBITAL_DISEASE"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="HEMANGIOMA_OF_ORBIT">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBITAL_DISEASE"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="THYROTOXIC_EXOPHTHALMOS">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ENDOCRINE_EXOPHTHALMOS"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ORBITAL_PLASMA_CELL_GRANULOMA">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="CHRONIC_ORBITAL_INFLAMMATION"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ORBITAL_GRANULOMA">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="CHRONIC_ORBITAL_INFLAMMATION"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ORBITAL_CELLULITIS">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ACUTE_ORBITAL_INFLAMMATION"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ORBITAL_TENONITIS">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ACUTE_ORBITAL_INFLAMMATION"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ORBITAL_OSTEOMYELITIS">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ACUTE_ORBITAL_INFLAMMATION"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ORBITAL_PERIOSTITIS">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ACUTE_ORBITAL_INFLAMMATION"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="INTRAORBITAL_MENINGIOMA">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBITAL_CANCER"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ORBIT_LYMPHOMA">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBITAL_CANCER"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ORBIT_LYMPHOMA">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBITAL_CANCER"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ORBIT_ALVEOLAR_RHABDOMYOSARCOMA">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBIT_RHABDOMYOSARCOMA"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ORBIT_EMBRYONAL_RHABDOMYOSARCOMA">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBIT_RHABDOMYOSARCOMA"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="CELLS">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="LOCATION"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="BONE_DISEASE">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="DISEASE"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ORBITAL_DISEASE">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="BONE_DISEASE"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ENDOCRINE_EXOPHTHALMOS">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBITAL_DISEASE"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="CHRONIC_ORBITAL_INFLAMMATION">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBITAL_DISEASE"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ACUTE_ORBITAL_INFLAMMATION">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBITAL_DISEASE"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ORBITAL_CANCER">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBITAL_DISEASE"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ORBIT_SARCOMA">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBITAL_CANCER"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="ORBIT_RHABDOMYOSARCOMA">
+      <rdfs:subClassOf>
+         <owl:Class rdf:about="ORBIT_SARCOMA"/>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="LOCATION">
+      <rdfs:subClassOf>
+         <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+               <owl:Class>
+                  <owl:complementOf>
+                     <owl:Class rdf:about="SYMPTOM"/>
+                  </owl:complementOf>
+               </owl:Class>
+               <owl:Class>
+                  <owl:complementOf>
+                     <owl:Class rdf:about="DISEASE"/>
+                  </owl:complementOf>
+               </owl:Class>
+            </owl:intersectionOf>
+         </owl:Class>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Class rdf:about="SYMPTOM">
+      <rdfs:subClassOf>
+         <owl:Class>
+            <owl:intersectionOf rdf:parseType="Collection">
+               <owl:Class>
+                  <owl:complementOf>
+                     <owl:Class rdf:about="DISEASE"/>
+                  </owl:complementOf>
+               </owl:Class>
+            </owl:intersectionOf>
+         </owl:Class>
+      </rdfs:subClassOf>
+   </owl:Class>
+   <owl:Thing rdf:about="ORBIT_LYMPHOMA">
+      <HAS-MATERIAL-BASIS-IN rdf:resource="LYMPHOCYTE"/>
+   </owl:Thing>
+   <CELLS rdf:about="LYMPHOCYTE">
+   </CELLS>
+   <owl:Thing rdf:about="ORBITAL_DISEASE">
+      <ADJACENT-TO rdf:resource="EYE"/>
+   </owl:Thing>
+   <LOCATION rdf:about="EYE">
+   </LOCATION>
+   <owl:Thing rdf:about="LYMPHOMA">
+      <HAS-LOCATION rdf:resource="LYMPHOID_TISSUE"/>
+   </owl:Thing>
+   <LOCATION rdf:about="LYMPHOID_TISSUE">
+   </LOCATION>
+   <owl:Thing rdf:about="HEMANGIOMA_OF_ORBIT">
+      <HAS-LOCATION rdf:resource="ORBITAL_REGION"/>
+   </owl:Thing>
+   <LOCATION rdf:about="ORBITAL_REGION">
+   </LOCATION>
+   <owl:Thing rdf:about="ACUTE_ORBITAL_INFLAMMATION">
+      <HAS-SYMPTOM rdf:resource="INFLAMMATION"/>
+   </owl:Thing>
+   <SYMPTOM rdf:about="INFLAMMATION">
+   </SYMPTOM>
+   <owl:Thing rdf:about="ORBITAL_PERIOSTITIS">
+      <HAS-SYMPTOM rdf:resource="INFLAMMATION"/>
+   </owl:Thing>
+   <owl:Thing rdf:about="ORBITAL_TENONITIS">
+      <HAS-SYMPTOM rdf:resource="INFLAMMATION"/>
+   </owl:Thing>
+   <owl:Thing rdf:about="ORBITAL_CANCER">
+      <HAS-SYMPTOM rdf:resource="EXOPHTHALMOS"/>
+      <HAS-SYMPTOM rdf:resource="PTOSIS"/>
+   </owl:Thing>
+   <SYMPTOM rdf:about="EXOPHTHALMOS">
+   </SYMPTOM>
+   <SYMPTOM rdf:about="PTOSIS">
+   </SYMPTOM>
+   <owl:Thing rdf:about="ORBITAL_CELLULITIS">
+      <HAS-SYMPTOM rdf:resource="INFLAMMATION"/>
+      <HAS-SYMPTOM rdf:resource="DOUBLE_VISION"/>
+      <HAS-SYMPTOM rdf:resource="HEADACHE"/>
+      <HAS-SYMPTOM rdf:resource="PTOSIS"/>
+      <HAS-SYMPTOM rdf:resource="FEVER"/>
+   </owl:Thing>
+   <SYMPTOM rdf:about="DOUBLE_VISION">
+   </SYMPTOM>
+   <SYMPTOM rdf:about="HEADACHE">
+   </SYMPTOM>
+   <SYMPTOM rdf:about="FEVER">
+   </SYMPTOM>
+   <owl:Thing rdf:about="CELLS">
+      <DIRECTSUBNODEOF rdf:resource="LOCATION"/>
+   </owl:Thing>
+   <owl:Thing rdf:about="LOCATION">
+      <DIRECTSUBNODEOF rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+   </owl:Thing>
+   <owl:Thing rdf:about="SYMPTOM">
+      <DIRECTSUBNODEOF rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+   </owl:Thing>
+   <owl:Thing rdf:about="DISEASE">
+      <DIRECTSUBNODEOF rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+   </owl:Thing>
+</rdf:RDF>

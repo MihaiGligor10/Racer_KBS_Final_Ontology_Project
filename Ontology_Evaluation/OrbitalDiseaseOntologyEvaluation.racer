@@ -1,0 +1,42 @@
+
+;1_______Returneaza bolile care au ca simptom febra
+(retrieve	(?x)
+ (and (?x Disease)
+ (?x fever has-symptom)))
+ 
+(individual-fillers fever (inv has-symptom) )
+
+;2_______Returneaza toate simptomele bolii orbital_cellulitis
+(individual-fillers orbital_cellulitis has-symptom )
+
+
+;3_______Returneaza bolile care au ca simptom dureri de cap
+(retrieve	(?x)
+ (and (?x Disease)
+ (?x headache has-symptom)))
+
+;4_______Ce boala apare in tesutul limfoid?
+(retrieve (?x)
+(and (?x Disease)
+(?x lymphoid_tissue has-location)))
+
+;5_______Returneaza toate bolile care au ca simptom inflamatia
+(retrieve (?x)
+(and (?x Disease)
+(?x inflammation has-symptom)))
+
+
+(all-atomic-concepts)
+(all-individuals) 
+
+(abox-consistent?)				
+(tbox-cyclic?)
+(tbox-coherent?)
+
+(realize-abox)
+(classify-tbox)
+
+(evaluate (length (all-individuals)))
+(evaluate (length (all-atomic-concepts)))
+(evaluate (length (all-roles)))
+(evaluate (length (all-rules)))

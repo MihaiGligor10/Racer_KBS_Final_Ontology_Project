@@ -1,0 +1,269 @@
+<http://www.w3.org/2002/07/owl#equivalentClass>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_86_109_orbit_rhabdomyosarcoma.>
+        a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "orbit_rhabdomyosarcoma."^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#orbit_rhabdomyosarcoma._1> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbit_rhabdomyosarcoma.> ;
+        <http://www.essepuntato.it/2008/12/earmark#begins>
+                "86"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#ends>
+                "109"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#refersTo>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_73_80_derived>
+        a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "derived"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#derive_1> , <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#derive_2> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Derive> ;
+        <http://www.essepuntato.it/2008/12/earmark#begins>
+                "73"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#ends>
+                "80"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#refersTo>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#VBN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbit_rhabdomyosarcoma.Orbit_rhabdomyosarcoma>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbit_rhabdomyosarcoma> ;
+        <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbit_rhabdomyosarcoma.> .
+
+<http://www.ontologydesignpatterns.org/ont/vn/abox/role/Material>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_36_68_orbit_embryonal_rhabdomyosarcoma>
+        a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "orbit_embryonal_rhabdomyosarcoma"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#orbit_embryonal_rhabdomyosarcoma_1> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbit_embryonal_rhabdomyosarcoma> ;
+        <http://www.essepuntato.it/2008/12/earmark#begins>
+                "36"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#ends>
+                "68"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#refersTo>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_86_108_orbit_rhabdomyosarcoma>
+        a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "orbit_rhabdomyosarcoma"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#orbit_rhabdomyosarcoma_1> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbit_rhabdomyosarcoma> ;
+        <http://www.essepuntato.it/2008/12/earmark#begins>
+                "86"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#ends>
+                "108"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#refersTo>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_110_132_orbit_rhabdomyosarcoma>
+        a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "orbit_rhabdomyosarcoma"^^<http://www.w3.org/2001/XMLSchema#string> , "Orbit_rhabdomyosarcoma"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbit_rhabdomyosarcoma> ;
+        <http://www.essepuntato.it/2008/12/earmark#begins>
+                "110"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#ends>
+                "132"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#refersTo>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_0_31_orbit_alveolar_rhabdomyosarcoma>
+        a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "orbit_alveolar_rhabdomyosarcoma"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#orbit_alveolar_rhabdomyosarcoma_1> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbit_alveolar_rhabdomyosarcoma> ;
+        <http://www.essepuntato.it/2008/12/earmark#begins>
+                "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#ends>
+                "31"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#refersTo>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbit_embryonal_rhabdomyosarcoma>
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Derive>
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event> ;
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#v> ;
+        <http://www.w3.org/2002/07/owl#equivalentClass>
+                <http://www.ontologydesignpatterns.org/ont/vn/data/Derive_97020000> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_81_85_from>
+        a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "from"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+                <http://www.ontologydesignpatterns.org/ont/vn/abox/role/Material> ;
+        <http://www.essepuntato.it/2008/12/earmark#begins>
+                "81"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#ends>
+                "85"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#refersTo>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#orbit_rhabdomyosarcoma._1>
+        a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbit_rhabdomyosarcoma.> ;
+        <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#orbit_rhabdomyosarcoma_1> .
+
+<http://www.essepuntato.it/2008/12/earmark#begins>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbit_sarcoma>
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_149_162_orbit_sarcoma>
+        a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "orbit_sarcoma"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#orbit_sarcoma_1> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbit_sarcoma> ;
+        <http://www.essepuntato.it/2008/12/earmark#begins>
+                "149"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#ends>
+                "162"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#refersTo>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#derive_1>
+        a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Derive> ;
+        <http://www.ontologydesignpatterns.org/ont/vn/abox/role/Material>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#orbit_rhabdomyosarcoma_1> ;
+        <http://www.ontologydesignpatterns.org/ont/vn/abox/role/Product>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#orbit_embryonal_rhabdomyosarcoma_1> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#derive_2>
+        a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Derive> ;
+        <http://www.ontologydesignpatterns.org/ont/vn/abox/role/Material>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#orbit_sarcoma_1> ;
+        <http://www.ontologydesignpatterns.org/ont/vn/abox/role/Product>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#orbit_embryonal_rhabdomyosarcoma_1> , <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#orbit_alveolar_rhabdomyosarcoma_1> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#orbit_rhabdomyosarcoma_1>
+        a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbit_rhabdomyosarcoma.Orbit_rhabdomyosarcoma> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_144_148_from>
+        a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "from"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+                <http://www.ontologydesignpatterns.org/ont/vn/abox/role/Material> ;
+        <http://www.essepuntato.it/2008/12/earmark#begins>
+                "144"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#ends>
+                "148"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#refersTo>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbit_rhabdomyosarcoma.>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbit_rhabdomyosarcoma>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_86_132_orbit_rhabdomyosarcoma.+orbit_rhabdomyosarcoma>
+        a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "orbit_rhabdomyosarcoma. orbit_rhabdomyosarcoma"^^<http://www.w3.org/2001/XMLSchema#string> , "Orbit_rhabdomyosarcoma. Orbit_rhabdomyosarcoma"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbit_rhabdomyosarcoma.Orbit_rhabdomyosarcoma> ;
+        <http://www.essepuntato.it/2008/12/earmark#begins>
+                "86"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#ends>
+                "132"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#refersTo>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbit_alveolar_rhabdomyosarcoma>
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> .
+
+<http://www.ontologydesignpatterns.org/ont/vn/abox/role/Product>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse>
+        a       <http://www.essepuntato.it/2008/12/earmark#StringDocuverse> ;
+        <http://www.essepuntato.it/2008/12/earmark#hasContent>
+                "orbit_alveolar_rhabdomyosarcoma and orbit_embryonal_rhabdomyosarcoma are derived from orbit_rhabdomyosarcoma. orbit_rhabdomyosarcoma is derived from orbit_sarcoma.\n"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#orbit_embryonal_rhabdomyosarcoma_1>
+        a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbit_embryonal_rhabdomyosarcoma> .
+
+<http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.w3.org/2000/01/rdf-schema#subClassOf>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#orbit_sarcoma_1>
+        a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbit_sarcoma> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#orbit_alveolar_rhabdomyosarcoma_1>
+        a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Orbit_alveolar_rhabdomyosarcoma> .
+
+<http://www.essepuntato.it/2008/12/earmark#refersTo>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.essepuntato.it/2008/12/earmark#ends>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.essepuntato.it/2008/12/earmark#hasContent>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .

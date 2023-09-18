@@ -1,0 +1,114 @@
+Every Alveolar_rhabdomyosarcoma is an AlveolarRhabdomyosarcoma.
+Every AlveolarRhabdomyosarcoma is an Alveolar_rhabdomyosarcoma.
+
+Every Cancer is a Cancer.
+Every Cancer is a Cancer.
+
+Every Embryonal_rhabdomyosarcoma is an EmbryonalRhabdomyosarcoma.
+Every EmbryonalRhabdomyosarcoma is an Embryonal_rhabdomyosarcoma.
+
+Every Lymphocyte is a Lymphocyte.
+Every Lymphocyte is a Lymphocyte.
+
+Every Lymphoma is a Lymphoma.
+Every Lymphoma is a Lymphoma.
+
+Every Meningioma is a Meningioma.
+Every Meningioma is a Meningioma.
+
+Every Rhabdomyosarcoma is a Rhabdomyosarcoma.
+Every Rhabdomyosarcoma is a Rhabdomyosarcoma.
+
+Every Orbit_(anatomy) is an Orbit that is an Orbital.
+Every Orbit is an Orbit_(anatomy) that is an Orbital.
+Every Orbital is an Orbit_(anatomy) that is an Orbit.
+
+Every Alveolar_rhabdomyosarcoma is a Rhabdomyosarcoma.
+
+Every Alveolar_rhabdomyosarcoma is a Rhabdomyosarcoma.
+
+Every Embryonal_rhabdomyosarcoma is a Rhabdomyosarcoma.
+
+Every Embryonal_rhabdomyosarcoma is a Rhabdomyosarcoma.
+
+Every Orbit_(anatomy) is a Quality.
+
+Every AlveolarRhabdomyosarcoma is a Rhabdomyosarcoma.
+
+Every AlveolarRhabdomyosarcoma is a Rhabdomyosarcoma.
+
+Every Derive is an Event.
+
+Every EmbryonalRhabdomyosarcoma is a Rhabdomyosarcoma.
+
+Every EmbryonalRhabdomyosarcoma is a Rhabdomyosarcoma.
+
+Every Have is an Event.
+
+Every IntraOrbital is an Orbit_(anatomy).
+
+Every IntraOrbital is an Orbit.
+
+Every IntraOrbital is an Orbital.
+
+Every IntraOrbitalMeningioma is an OrbitalMeningioma.
+
+Every LymphocyteOrbital is an Orbit_(anatomy).
+
+Every LymphocyteOrbital is an Orbit.
+
+Every LymphocyteOrbital is an Orbital.
+
+Every LymphocyteOrbitalCancer is an OrbitalCancer.
+
+Every Material is a Quality.
+
+Every MaterialBasis is a Basis.
+
+Every Orbit is a Quality.
+
+Every OrbitAlveolar is an Alveolar.
+
+Every OrbitAlveolarRhabdomyosarcoma is an Alveolar_rhabdomyosarcoma.
+
+Every OrbitAlveolarRhabdomyosarcoma is an AlveolarRhabdomyosarcoma.
+
+Every OrbitEmbryonalRhabdomyosarcoma is an Embryonal_rhabdomyosarcoma.
+
+Every OrbitEmbryonalRhabdomyosarcoma is an EmbryonalRhabdomyosarcoma.
+
+Every OrbitLymphoma is a Lymphoma.
+
+Every OrbitLymphoma is a Lymphoma.
+
+Every OrbitRhabdomyosarcoma is a Rhabdomyosarcoma.
+
+Every OrbitRhabdomyosarcoma is a Rhabdomyosarcoma.
+
+Every OrbitRhabdomyosarcoma. is a Rhabdomyosarcoma..
+
+Every OrbitRhabdomyosarcoma.Orbit is a Rhabdomyosarcoma.Orbit.
+
+Every OrbitRhabdomyosarcoma.OrbitRhabdomyosarcoma is a Rhabdomyosarcoma.OrbitRhabdomyosarcoma.
+
+Every OrbitSarcoma is a Sarcoma.
+
+Every Orbital is a Quality.
+
+Every OrbitalCancer is a Cancer.
+
+Every OrbitalCancer is a Cancer.
+
+Every OrbitalMeningioma is a Meningioma.
+
+Every OrbitalMeningioma is a Meningioma.
+
+Every Rhabdomyosarcoma.Orbit is an Orbit_(anatomy).
+
+Every Rhabdomyosarcoma.Orbit is an Orbit.
+
+Every Rhabdomyosarcoma.Orbit is an Orbital.
+
+Every Rhabdomyosarcoma.OrbitRhabdomyosarcoma is an OrbitRhabdomyosarcoma.
+
+Every SymptomExophthalmo is an Exophthalmo.
